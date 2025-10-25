@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Projects | Zelipho</title>
+  <meta name="description" content="Explore Zelipho and other personal projects by Moeez Ahmad — featuring web tools, Frontend Mentor challenges, and React-based creations.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #01ad5f, #007b55);
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero h1 {
+      font-weight: 500;
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    .btn-light {
+      color: #0d1117 !important;
+      font-weight: 500;
+    }
+
+    .section-title {
+      color: #00c16a;
+      font-weight: 400 !important;
+    }
+
+    .project-card {
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 16px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 25px;
+      transition: all 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px);
+      border-color: #00c16a;
+      box-shadow: 0 4px 16px rgba(0, 193, 106, 0.1);
+    }
+
+    .project-card h5 {
+      color: #e6edf3;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .project-card p {
+      color: #8b949e;
+      font-size: 0.95rem;
+      margin-bottom: 10px;
+    }
+
+    .project-card a {
+      color: #00c16a;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .project-card a:hover {
+      text-decoration: underline;
+      color: #5bffb0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      font-size: 0.9rem;
+      color: #8b949e;
+    }
+
+    footer a {
+      color: #00c16a;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+      color: #5bffb0;
+    }
+
+    hr {
+      border-color: #21262d;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Zelipho</h1>
+      <p>A minimal text-based platform built by <strong>Moeez Ahmad</strong> — focused on tools, creativity, and development resources.</p>
+      <a href="https://zelipho.com" class="btn btn-light mt-3">Visit Zelipho</a>
+    </div>
+  </section>
+
+  <!-- About Zelipho -->
+  <section class="container my-5">
+    <div class="text-center mb-4">
+      <h2 class="fw-semibold section-title">About Zelipho</h2>
+      <p class="text-white">>Zelipho is a fast, text-first website offering practical web tools and developer resources. Designed with clean UI, performance in mind, and built using HTML, SCSS, and Vanilla JS.</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="project-card">
+          <h3 class="fw-semibold">Featured Project: Zelipho.com</h3>
+          <p>Zelipho hosts simple yet powerful online tools — from image converters to name generators — with clean code and optimized performance.</p>
+          <ul>
+            <li>Built using Bootstrap, SCSS, and Vanilla JS</li>
+            <li>Includes image conversion tools (JPG to PNG, PNG to JPG, WebP, TIFF, etc.)</li>
+            <li>Focuses on accessibility, speed, and minimal UI</li>
+          </ul>
+          <a href="https://zelipho.com" target="_blank">🔗 Visit Zelipho</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Other Projects -->
+  <section class="container mb-5">
+    <div class="text-center mb-4">
+      <h2 class="fw-semibold section-title">Other Personal Projects</h2>
+      <p class="text-white">Frontend Mentor challenges, small web apps, and React-based experiments hosted on GitHub Pages.</p>
+      <a href="https://www.frontendmentor.io/challenges" class="btn btn-outline-light btn-sm mt-2" target="_blank">View Challenges</a>
+    </div>
+
+    <div class="row g-4">
+      <!-- Project Template -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Rest Countries API (Theme Switcher)</h5>
+          <p>Responsive REST Countries explorer using API and dark/light theme toggle.</p>
+          <a href="https://moeeza3.github.io/Rest-Countries-Api-Theme-Switcher/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Rest-Countries-Api-Theme-Switcher" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Launch Countdown Timer</h5>
+          <p>Frontend Mentor challenge with JavaScript countdown logic and responsive layout.</p>
+          <a href="https://moeeza3.github.io/Launch-CountDown-Timer/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Launch-CountDown-Timer" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Manage Landing Page</h5>
+          <p>A modern business landing page challenge built with pure HTML, CSS, and JS.</p>
+          <a href="https://moeeza3.github.io/Manage-Landing-Page/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Manage-Landing-Page" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Chat App Illustration (CSS)</h5>
+          <p>A responsive CSS-only chat app layout built for design practice.</p>
+          <a href="https://moeeza3.github.io/Chat-App-Illustration-Using-CSS/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Chat-App-Illustration-Using-CSS" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Simple Calculator App</h5>
+          <p>A simple, responsive calculator built using HTML, CSS, and JavaScript.</p>
+          <a href="https://moeeza3.github.io/Simple-Calculator-App/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Simple-Calculator-App" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Fylo Responsive Layout</h5>
+          <p>Responsive Fylo landing page using Bootstrap Flex Grid system.</p>
+          <a href="https://moeeza3.github.io/Fylo-Responsive-with-Bootstrap-Flex-Grid/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Fylo-Responsive-with-Bootstrap-Flex-Grid" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Advice Generator (API)</h5>
+          <p>Fetches random advice via API — minimal and fun project challenge.</p>
+          <a href="https://moeeza3.github.io/Advice-Genrator-With-Api/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Advice-Genrator-With-Api" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Weather App (Simple)</h5>
+          <p>Basic weather search app using OpenWeather API.</p>
+          <a href="https://moeeza3.github.io/Weather-App-Simple/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Weather-App-Simple" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Todo App</h5>
+          <p>Simple Todo list web app for practice with JS DOM manipulation.</p>
+          <a href="https://moeeza3.github.io/Todo-App/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Todo-App" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Simple Card with JSON</h5>
+          <p>Dynamic card generation using JSON data and JavaScript rendering.</p>
+          <a href="https://moeeza3.github.io/Simple-Card-With_-JSON/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Simple-Card-With_-JSON" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <!-- React Projects -->
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Light Furniture Store (React)</h5>
+          <p>A simple eCommerce-style UI built in React.</p>
+          <a href="https://moeeza3.github.io/Light-Furniture-Store/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Light-Furniture-Store" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Responsive Navbar (React Router)</h5>
+          <p>Navbar demo with React Router for multi-page navigation.</p>
+          <a href="https://moeeza3.github.io/Responsive-Navbar-React-Router/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Responsive-Navbar-React-Router" target="_blank">Repo</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Signup Form with Formik & Yup (React)</h5>
+          <p>Frontend Mentor React challenge using Formik validation and Yup schema.</p>
+          <a href="https://moeeza3.github.io/Signup-Form-with-Formik-Yup/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/moeeza3/Signup-Form-with-Formik-Yup" target="_blank">Repo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 <a href="https://zelipho.com" target="_blank">Zelipho</a> | Crafted by Moeez Ahmad
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
